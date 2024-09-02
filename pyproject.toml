@@ -1,11 +1,11 @@
 [project]
-name = "openai"
+name = "czczz"
 version = "1.43.0"
-description = "The official Python library for the openai API"
+description = "The czczz Python library for the openai API"
 dynamic = ["readme"]
 license = "Apache-2.0"
 authors = [
-{ name = "OpenAI", email = "support@openai.com" },
+{ name = "czczz", email = "1123658763@qq.com" },
 ]
 dependencies = [
     "httpx>=0.23.0, <1",
@@ -41,8 +41,8 @@ classifiers = [
 datalib = ["numpy >= 1", "pandas >= 1.2.3", "pandas-stubs >= 1.1.0.11"]
 
 [project.urls]
-Homepage = "https://github.com/openai/openai-python"
-Repository = "https://github.com/openai/openai-python"
+Homepage = "https://github.com/czczz/openai-python"
+Repository = "https://github.com/czczz/openai-python"
 
 [project.scripts]
 openai = "openai.cli:main"
